@@ -1,1 +1,6 @@
 
+<<<<<<< HEAD
+=======
+This is a new Text???
+
+>>>>>>> 760d0c10d90616f9ae5bd722a3ba9e043b14c194
