@@ -1,0 +1,11 @@
+commit b1edd4ab1ae0f5612d8cb0a75a2fbe5bb0c2385a
+Author: antonydang <dangtritin@gmail.com>
+Date:   Mon Feb 10 11:53:35 2020 -0500
+
+    Add a new.txt text file
+
+commit f1b848803d346d21d6f1c4019a17cf1357cbeb4d
+Author: rickd84 <32253463+rickd84@users.noreply.github.com>
+Date:   Mon Feb 10 11:29:51 2020 -0500
+
+    Initial commit
