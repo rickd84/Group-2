@@ -1,0 +1,11 @@
+commit 7743a448bd7090f60028471dc2936a042528b898
+Author: CedricDeonC <cedric.d98.crawford@gmail.com>
+Date:   Mon Feb 10 11:52:10 2020 -0500
+
+    Add a new.txt text file
+
+commit f1b848803d346d21d6f1c4019a17cf1357cbeb4d
+Author: rickd84 <32253463+rickd84@users.noreply.github.com>
+Date:   Mon Feb 10 11:29:51 2020 -0500
+
+    Initial commit
