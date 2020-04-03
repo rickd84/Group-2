@@ -1,5 +1,5 @@
 1.  Work out a system to get the security questions to verify with the user input.  Possibly a database with sql, or maybe a plain 
 text comparison. - Cedric
-2. [x] Add submit button to phone number Identification window. [] Also add command to send a text to the number entered. -Rick
+2. [x] Add submit button to phone number Identification window. [x] Also add command to send a text to the number entered. -Rick
 3. Add a new window to submit code received from text message, and new window or same for reset password.- Caleb
 4. Start final paper. -Tin
