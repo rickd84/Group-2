@@ -6,27 +6,34 @@ root.title("Two factor authentication")
 
 def forgotPass():
    questions = tkinter.Tk()
-   random1 = randint(0,4)
-   random2 = randint(0,4)
+   random1 = random.randint(0,4)
+   random2 = random.randint(0,4)
+   q1 = tkinter.StringVar()
+   q2 = tkinter.StringVar()
    
    questions.title("Security Questions")
    tkinter.Label(questions, text = "Please Answer the Following Questions").place(x=80, y=15)
    tkinter.Label(questions, text = question[random1]+":").place(x=50, y=50)
-   tkinter.Entry(questions).place(x=120, y=50)
-   answer1 = input()
+   question1 = tkinter.Entry(questions, textvariable = q1)
+   question1.place(x = 50, y = 80)
    tkinter.Label(questions, text = question[random2]+":").place(x=50, y=90) 
-   tkinter.Entry(questions).place(x=120, y=90)
-   answer2 = input()
-   tkinter.Button(questions, text="Submit", command = Number).place(x=160, y=120)
+   question2 = tkinter.Entry(questions, textvariable = q2)
+   question2.place(x = 50, y = 110)
+   tkinter.Button(questions, text="Submit", command = get_data).place(x=160, y=120)
    questions.geometry("450x200")
-   if answer1 == answers[random1]
-      if answer2 == answers[random2]
+   forgotPass.mainloop() 
+   
+def get_data():
+   question1_data = q1.get()
+   question2_data = q2.get()
+   if question1_data == answers[random1]:
+      if question2_data == answers[random2]:
          print("Continue")
+         Number()
       else:
          print("Incorrect")
    else:
-      print("Incorrect")
-   forgotPass.mainloop()         
+      print("Try Again")        
 
    
 def Number():
